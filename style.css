@@ -1,0 +1,112 @@
+:root {
+  --primarycolor: #0b2447;
+  --secondarycolor: #b9eddd;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  position: relative;
+}
+.heading {
+  background-color: var(--secondarycolor);
+  top: 1px;
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  font-size: 30px;
+  color: var(--primarycolor);
+  font-family: "Sacramento", cursive;
+  /* background-color: var(--secondarycolor); */
+  text-align: center;
+
+  padding: 100px;
+  padding: 0;
+}
+.bio {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.cloud {
+  position: absolute;
+  top: 0x;
+  width: 100px;
+  left: 1000px;
+}
+.cloudbottom {
+  position: absolute;
+  width: 100px;
+  top: 200px;
+  left: 300px;
+}
+.mount {
+  position: absolute;
+  top: 275px;
+  left: 400px;
+  width: 500px;
+}
+.bimg {
+  position: relative;
+}
+.top {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+}
+.profilepic {
+  border-radius: 100%;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.midsec {
+  position: relative;
+  color: #66c5d5;
+  width: 400px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+hr {
+  border: 10px dotted #eaf6f6;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff;
+  width: 90px;
+  height: 100px;
+  margin-left: 46%;
+}
+.myskill {
+  position: relative;
+  /* box-sizing: border-box; */
+  color: #66c5d5;
+  padding-top: 80px;
+  width: 700px;
+
+  top: 100px;
+  left: 25vw;
+  text-align: center;
+}
+.uplair {
+  display: flex;
+  margin-bottom: 100px;
+}
+.inter{
+  display: flex;
+}
+.upin {
+  height: 137px;
+  width: 137px;
+}
+.up {
+  margin-right: 30px;
+}
+.in{
+  position: absolute;
+  top:460px;
+  right: 0;
+
+}
